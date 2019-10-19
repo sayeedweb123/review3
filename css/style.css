@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+}
+
+header{padding: 20PX 0;}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(34, 34, 34);
+    padding: 10PX 20PX;
+    display: block;
+}
+
+.banner-section{}
+.banner-section img{
+    width: 100%
+}
+
+.blog-section{}
+article{
+    padding: 100px;
+}
+article span{
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 15px;
+}
+article h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+article p{}
+article a{
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+p span {text-transform: capitalize;font-size: 19px;font-weight: 700;}
